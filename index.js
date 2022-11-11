@@ -1,4 +1,3 @@
-const { default: axios } = require("axios")
 const { Client, GatewayIntentBits, ActivityType, REST, SlashCommandBuilder, Routes, EmbedBuilder } = require("discord.js")
 const { discord_BOT_token, discord_BOT_ID, openai_API_token, max_tokens, command_name, command_description } = require("./config.json")
 const { Configuration, OpenAIApi } = require("openai")
