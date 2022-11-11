@@ -58,7 +58,7 @@ i.followUp({ content:new Error(err).message, ephemeral:true })
 }
 })
 
-if(!process.argv[2].toLowerCase().includes('nopub')) register()
+if(process.argv[2] && !process.argv[2].toLowerCase().includes('nopub')) register()
 discordClient.login(discord_BOT_token)
 
 module.exports = discordClient
