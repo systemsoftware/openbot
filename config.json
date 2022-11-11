@@ -1,0 +1,10 @@
+{
+
+"discord_BOT_token":"",
+"discord_BOT_ID":"",
+"openai_API_token":"",
+"max_tokens":1000,
+"command_name":"ai",
+"command_description":"OpenAI command"
+
+}
